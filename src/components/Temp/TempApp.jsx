@@ -31,7 +31,7 @@ const TempApp = () => {
                             <i className="fa-solid fa-street-view icon-street"></i>{search}
                         </h2>
                         <h1 className="temp">{city.temp}°C</h1>
-                        <h3 className="tempmin_max">Min: {city.temp_min}°C | Max: {city.temp_max}°C</h3>
+                        <h3 className="tempmin_max">Min: {city.temp_min}°C | Max: {city.temp_max}°C | Humidity: {city.humidity}</h3>
                     </div>
                     <div className="wave -one"></div>
                     <div className="wave -two"></div>
